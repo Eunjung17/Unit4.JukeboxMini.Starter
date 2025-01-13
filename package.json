@@ -6,9 +6,19 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seed.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "You've been hired to create the backend for a digital music service. The team's still working on getting access to tracks, but for now, you can get started on the playlist functionality.",
+  "keywords": [],
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "@prisma/client": "^6.2.1",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.2.1"
+  }
 }
